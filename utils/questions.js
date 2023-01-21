@@ -9,11 +9,11 @@ module.exports = [
         name: 'desription',
         message: 'Please write a bried description of your project.'
     },
-    { 
-        name: 'contentsConfirm',
-        message: 'Would you like to include a table of contents?',
-        type: 'confirm'
-    },
+    // { 
+    //     name: 'contentsConfirm',
+    //     message: 'Would you like to include a table of contents?',
+    //     type: 'confirm'
+    // },
     {
         name: 'installation',
         message: 'Please provide any necessary installation instructions'
