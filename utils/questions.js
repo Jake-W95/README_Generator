@@ -1,26 +1,19 @@
-const inq = require('inquirer')
-
-module.exports = [
+const questions = [
     {
         name: 'projectName',
         message: 'Enter project name.',
     },
     {
-        name: 'desription',
-        message: 'Please write a bried description of your project.'
-    },
-    { 
-        name: 'contentsConfirm',
-        message: 'Would you like to include a table of contents?',
-        type: 'confirm'
+        name: 'description',
+        message: 'Please write a brief description of your project.'
     },
     {
         name: 'installation',
-        message: 'Please provide any necessary installation instructions'
+        message: 'Please provide any necessary installation instructions.'
     },
     {
         name: 'usage',
-        message: 'Please provide any necessary usage information'
+        message: 'Please provide any necessary usage information.'
     },
     {
         name: 'license',
@@ -37,16 +30,26 @@ module.exports = [
     },
     {
         name: 'ifOther',
-        message: 'Please specify',
+        message: 'Please specify.',
         when: ans => ans.license === 'Other'
     },
     {
         name: 'contribution',
-        message: 'Please describe how others can contribute to your project'
+        message: 'Please describe how others can contribute to your project.'
     },
     {
         name: 'test',
-        message: 'Please describe any tests for your project'
+        message: 'Please describe any tests for your project.'
+    },
+    {
+        name: 'github',
+        message: 'Enter your GitHub username.' 
+    },
+    {
+        name: 'email',
+        message: 'Enter your Email.'
     }
-    ];
+]
 
+module.exports = questions
+ 
