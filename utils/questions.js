@@ -1,10 +1,3 @@
-const inquirer = require('inquirer');
-// const fs = require('fs');
-const { resolve4 } = require('dns/promises');
-
-
-
-
 const questions = [
     {
         name: 'projectName',
@@ -48,36 +41,6 @@ const questions = [
         name: 'test',
         message: 'Please describe any tests for your project.'
     }]
-     
-     
-
-    
-
-
 
 module.exports = questions
-    
-    
-// module.exports = packet = {
-//     questions : questions,
-//     // results: res
-// }
-
-
-
-
-
-       
-   
-
-
-
-    
-
-    
-    // const forExport = {
-    //     questions: questions,
-    //     answers: results
-    // }
-
-   
+ 
