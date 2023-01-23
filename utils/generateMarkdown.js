@@ -1,10 +1,10 @@
 
 // function to generate markdown for README
 function generateMarkdown(res) {
-  // console.log(results.projectName)
+  
   return `
   # ${res.projectName}
-  ## ${res.description}
+  > ## ${res.description}
   ***
 
   - [Installation](#${res.installation})
@@ -20,12 +20,17 @@ function generateMarkdown(res) {
   ## Usage:
   ${res.usage}
   ***
-  ## How To Contribute
+  ## How To Contribute:
   ${res.contribution}
   ***
-  ## Tests
-  ${res.test}
-  ${printLicense(res)}
+  ## Tests:
+  ${res.test}:
+***
+
+  **${printLicense(res)}**       
+
+
+  > View my[GitHub](https://github.com/${res.github} page )
  `;
 }
 

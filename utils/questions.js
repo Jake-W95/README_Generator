@@ -40,7 +40,12 @@ const questions = [
     {
         name: 'test',
         message: 'Please describe any tests for your project.'
-    }]
+    },
+    {
+        name: 'github',
+        message: 'Enter your GitHub username' 
+    }
+]
 
 module.exports = questions
  
