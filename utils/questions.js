@@ -43,7 +43,11 @@ const questions = [
     },
     {
         name: 'github',
-        message: 'Enter your GitHub username' 
+        message: 'Enter your GitHub username.' 
+    },
+    {
+        name: 'email',
+        message: 'Enter your Email.'
     }
 ]
 

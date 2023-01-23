@@ -25,12 +25,14 @@ function generateMarkdown(res) {
   ***
   ## Tests:
   ${res.test}:
-***
-
-  **${printLicense(res)}**       
-
-
+  ***
+  ## Questions:
   > View my[GitHub](https://github.com/${res.github} page )
+  > Email me at: ${res.email}
+
+  This project is covered under the following lisence: **${printLicense(res)}**       
+
+
  `;
 }
 
