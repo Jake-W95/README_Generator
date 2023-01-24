@@ -51,6 +51,10 @@ const questions = [
     {
         name: 'email',
         message: 'Enter your Email.'
+    },
+    {
+        name: 'fileName',
+        message: 'Enter desired filename (default = README)'
     }
 ]
 

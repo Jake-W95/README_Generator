@@ -17,12 +17,23 @@ function writeToFile(fileName, data) {
     // fs.writeFile('README.md', generateMarkdown())
 }
 
+
 // function to initialize program
 function init() {
     inquirer.prompt(questions)
         .then((res) => {
+            
+            function fileName(res) {
+                if (res.fileName === '') {
+                    return 'README.md'
+                } else {
+                    return res.fileName + '.md'
+                }
+            }
 
-            fs.writeFile('README.md', generateMarkdown(res), (error) => {
+
+
+            fs.writeFile(fileName(res), generateMarkdown(res), (error) => {
                 if (error) throw error;
                 console.log('File Written');
             })
