@@ -26,7 +26,8 @@
   :
   ***
   ## Questions:
-  > View my[GitHub](https://github.com/ page )
+  > View my [GitHub](https://github.com/Jake-W95) page
+  
   > Email me at: 
 
   This project is covered under the following license: **None**       
