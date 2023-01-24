@@ -34,4 +34,20 @@
 
 
  
- ![lisences](url )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ ![lisences](https://github.com/Jake-W95/README_Generator/blob/main/images/Lisence_Section.png)
+ 
+ Selecting _Other_ causes another prompt to appear, asking to specify.
+ 
+ Selecting _None_ or _Other_ will result in there being no license badge on the README.
