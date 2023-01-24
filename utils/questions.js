@@ -21,11 +21,14 @@ const questions = [
         type: 'list',
         choices: [
             'None', 
-            'Academic Free License v3.0',
-            'Apache license 2.0',
-            'Artistic license 2.0',
-            'Boost Software License 1.0',
             'MIT',
+            'Apache license 2.0',
+            'Boost Software License 1.0',
+            'BSD 3-Clause License',
+            'BSD 2-Clause License',
+            'Creative Commons CC0',
+            'Mozilla Public License 2.0',
+            'Unlicense',
             'Other']
     },
     {

@@ -1,8 +1,9 @@
 const fs = require("fs");
 // const path = require('path');
-const inquirer = require("inquirer");
+const inquirer = require('inquirer');
 const questions = require('./utils/questions')
-const generateMarkdown = require("./utils/generateMarkdown");
+const generateMarkdown = require('./utils/generateMarkdown');
+// const licenseBadge = require('./utils/licenseBadge')
 
 
 
