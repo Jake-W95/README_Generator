@@ -1,8 +1,8 @@
 
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  # README Generator
-  > ## A terminal application that creates a README with user inputs
+  # Project Name Here
+  > ## This is a brief description
   ***
 
   - [Installation](#Installation)
@@ -14,16 +14,16 @@
   
   ***
   ## Installation:
-  For this application to function users must download the used node modules
+  Plug and play
   ***
   ## Usage:
-  This application will promt the user for information regarding the project and create a profesional README file using the data recieved 
+  Use this project to do things
   ***
   ## Contribute:
-  Any contributions to streamline and expand on the license badges section would be appreciated, simply clone the repository and feel free to modify this code
+  With code
   ***
   ## Tests:
-  -:
+  The litmus test:
   ***
   ## Questions:
   > View my [GitHub](https://github.com/Jake-W95) page

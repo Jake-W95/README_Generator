@@ -54,7 +54,7 @@ const questions = [
     },
     {
         name: 'fileName',
-        message: 'Enter desired filename (default = README)'
+        message: 'Enter desired filename (default = README   IT IS RECOMMENDED THAT THE FILENAME IS README)'
     }
 ]
 

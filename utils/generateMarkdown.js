@@ -11,12 +11,12 @@ function generateMarkdown(res) {
   > ## ${res.description}
   ***
 
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [How To Contribute](#contribution)
-  - [Tests](#test)
-  - [License](#license)
-  - [Questions](#questions)
+  - [Installation](#Installation)
+  - [Usage](#Usage)
+  - [How To Contribute](#Contribute)
+  - [Tests](#Tests)
+  - [License](#License)
+  - [Questions](#Questions)
   
   ***
   ## Installation:
@@ -25,7 +25,7 @@ function generateMarkdown(res) {
   ## Usage:
   ${res.usage}
   ***
-  ## How To Contribute:
+  ## Contribute:
   ${res.contribution}
   ***
   ## Tests:
@@ -35,7 +35,7 @@ function generateMarkdown(res) {
   > View my [GitHub](https://github.com/${res.github}) page
   
   > Email me at: ${res.email}
-
+## License
   This project is covered under the following license: **${printLicense(res)}**       
 
 
@@ -56,7 +56,7 @@ function licenseBadge(res) {
   }
   if (res.license === 'Apache license 2.0') {
     return badges.Apache
-  } 
+  }
   if (res.license === 'Boost Software License 1.0') {
     return badges.Boost
   }
@@ -75,11 +75,11 @@ function licenseBadge(res) {
   if (res.license === 'Unlicense') {
     return badges.Unlicense
   }
-  if (res.license === 'None' || res.license === 'Other'){
+  if (res.license === 'None' || res.license === 'Other') {
     return ''
   }
 
-  
+
 
 
 
